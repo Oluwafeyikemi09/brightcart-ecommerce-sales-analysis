@@ -1,108 +1,73 @@
-# BrightCart Commerce  E-commerce Sales Performance Analysis
+# BrightCart E-Commerce Sales Performance Analysis
 
-## 📌 Project Overview
+## 📊 Project Overview
 
 BrightCart Commerce is an e-commerce business experiencing a significant decline in sales performance.
 
-This project analyzes **1,500 sales records from January 2025 to June 2026** to identify key sales trends, customer behavior, channel performance, product and regional performance, marketing activity, and operational issues contributing to the business's declining performance.
+This project analyzes **1,500 sales transactions recorded between January 2025 and June 2026** to understand the sales decline, identify key performance drivers, and provide actionable recommendations for business recovery.
 
-The analysis was conducted using **Microsoft Excel**, with data cleaning, transformation, analysis, KPI development, PivotTables, and an interactive multi-page dashboard.
+The analysis was conducted using **Microsoft Excel**, covering data cleaning, transformation, exploratory analysis, KPI development, dashboard creation, and business insight generation.
 
 ---
 
 ## 🎯 Business Problem
 
-BrightCart Commerce has experienced a sustained decline in sales, particularly from **November 2025 onward**.
+BrightCart experienced a sustained decline in sales performance, with the downward trend becoming more pronounced from **November 2025**.
 
-The objective of this analysis was to answer the following questions:
+The analysis was designed to answer:
 
-- How has sales performance changed over time?
-- Which products, regions, and sales channels generate the most revenue?
-- How are new and returning customers contributing to sales?
-- What are the major reasons for product returns?
-- How is marketing spend performing relative to sales?
-- What actions can BrightCart take to improve sales performance?
+**What factors are contributing to BrightCart's declining sales performance, and what actions can the business take to improve revenue and customer performance?**
 
 ---
 
-## 📊 Dataset
+## 🔎 Analysis Objectives
 
-- **Company:** BrightCart Commerce
-- **Industry:** E-commerce
-- **Records:** 1,500 sales transactions
-- **Period:** January 2025 - June 2026
-- **Tool:** Microsoft Excel
+The analysis focused on five key areas:
 
-### Key Data Fields
-
-- Order Date
-- Sales
-- Profit
-- Customer Type
-- Customer Segment
-- Product Category
-- Product
-- Region
-- Sales Channel
-- Marketing Channel
-- Marketing Spend
-- Order Status
-- Return Reason
-- Delivery Days
-- Customer Rating
-- Discount
+- **Sales Performance** - Identify sales trends and measure the magnitude of the decline.
+- **Customer Behaviour** - Compare new and returning customer performance.
+- **Channel Performance** - Identify the sales channels contributing most to revenue.
+- **Product & Regional Performance** - Determine high-performing categories and regions.
+- **Marketing & Operations** - Examine marketing spend, returns and order performance.
 
 ---
 
 ## 🛠️ Tools & Skills
 
-**Tools**
+### Tools
+
 - Microsoft Excel
+- Power Query
 - Power Pivot
 - PivotTables
 - PivotCharts
 
-**Skills**
+### Skills
+
 - Data Cleaning
 - Data Transformation
 - Exploratory Data Analysis
 - KPI Development
-- Sales Analysis
-- Customer Segmentation
 - Trend Analysis
-- Marketing Performance Analysis
+- Customer Segmentation
 - Data Visualization
-- Business Insights & Recommendations
+- Business Analysis
+- Insight Generation
+- Data-Driven Recommendations
 
 ---
 
-## 🧹 Data Preparation
+# 📈 Dashboard
 
-The dataset required several data-quality and consistency checks before analysis.
-
-Key preparation steps included:
-
-- Identifying and handling missing values
-- Removing duplicate records
-- Standardizing inconsistent categorical values
-- Correcting date formats
-- Cleaning numerical and currency fields
-- Validating sales, profit and discount values
-- Creating calculated fields for analysis
-- Creating a Month-Year field for trend analysis
-- Reviewing inconsistent sales-channel classifications
-
-Blank category values were excluded from relevant breakdown visuals while the overall KPI calculations retained valid sales records.
+The analysis was translated into a **three-page interactive Excel dashboard** designed to move from overall business performance to customer and operational analysis, and finally to key insights and recommendations.
 
 ---
 
-## 📈 Dashboard
+## 1. Executive Sales Performance
 
-The final Excel dashboard consists of three pages:
+The first dashboard provides an overview of BrightCart's financial and sales performance.
 
-### Page 1 - Executive Sales Performance
-
-Provides an overview of:
+### Key Areas Analysed
 
 - Total Sales
 - Total Profit
@@ -116,89 +81,153 @@ Provides an overview of:
 - Sales by Product Category
 - Top Products
 
-### Page 2 - Customer & Operational Insights
+### Dashboard Preview
 
-Analyzes:
+[Executive Sales Performance Dashboard] 
 
-- Customer Segment Performance
-- Marketing Channel Performance
-- New vs Returning Customer Sales
-- Return Reasons
-- Monthly Sales vs Marketing Spend
-- Order Status
+<img width="1339" height="667" alt="Screenshot 2026-08-09 195620" src="https://github.com/user-attachments/assets/f905b62b-5b60-413a-974a-9685eeb2f398" />
 
-### Page 3 - Key Insights & Recommendations
 
-Summarizes the major findings from the analysis and translates them into actionable business recommendations.
 
 ---
 
-## 🔍 Key Insights
+## 2. Customer & Operational Insights
+
+The second dashboard examines customer behaviour, marketing performance and operational factors that may influence sales performance.
+
+### Key Areas Analysed
+
+- Customer Segment Performance
+- New vs Returning Customer Sales
+- Marketing Channel Performance
+- Monthly Sales vs Marketing Spend
+- Return Reasons
+- Order Status
+
+### Dashboard Preview
+
+[Customer and Operational Insights Dashboard]
+
+<img width="1348" height="668" alt="Screenshot 2026-08-08 150338" src="https://github.com/user-attachments/assets/4644899e-0fac-4626-a2f0-3d3f4016ff1b" />
+
+
+---
+
+## 3. Key Insights & Recommendations
+
+The third dashboard summarizes the major findings from the analysis and translates them into practical business recommendations.
+
+### Dashboard Preview
+
+[Key Insights and Recommendations Dashboard]
+
+<img width="1337" height="665" alt="Screenshot 2026-08-08 151326" src="https://github.com/user-attachments/assets/035f05c0-e1f0-4dc9-961b-136459f5d733" />
+
+
+
+---
+
+# 🔍 Key Insights
 
 ### 1. Sales Performance Has Weakened Significantly
 
-Sales declined by **71.4% between January 2025 and June 2026**, with a sustained downward trend beginning around **November 2025**.
+Sales declined by **71.4% between January 2025 and June 2026**, with a sustained downward trend becoming evident from approximately **November 2025**.
 
-### 2. Customer Sales Are Declining Across Both Groups
+### 2. Digital Channels Are Critical to Revenue
 
-Returning customers contribute approximately **60% of sales**, but sales from both new and returning customers trend downward toward 2026, suggesting that the decline is broader than customer acquisition alone.
+The **Website and Mobile App contribute approximately 77% of sales**, making digital-channel performance critical to overall revenue.
 
-### 3. Digital Channels Are Critical to Revenue
+### 3. Returning Customers Are Important
 
-The **Website and Mobile App contribute approximately 77% of sales**, making digital channel performance critical to overall revenue.
+Returning customers contribute approximately **60% of sales**. However, sales from both new and returning customers trend downward toward 2026, suggesting that the decline is broader than customer acquisition alone.
 
 ### 4. Revenue Is Concentrated
 
-The **South region contributes approximately 42% of sales**, while **Electronics is the leading product category at approximately 23%**.
+The **South region contributes approximately 42% of sales**, while **Electronics contributes approximately 23% of category sales**.
 
 ### 5. Returns Present an Operational Opportunity
 
-**Wrong size/fit** is the leading return reason, followed by changed mind and product damage, highlighting opportunities to improve product information and fulfillment quality.
+**Wrong size/fit** is the leading return reason, followed by changed mind and product damage, highlighting opportunities to improve product information, quality and fulfillment.
 
-### 6. Marketing Spend Alone Does Not Explain the Decline
+### 6. Marketing Spend Does Not Fully Explain the Decline
 
-Sales continued to decline despite fluctuations in marketing spend, suggesting that other factors may be contributing to the downturn.
-
----
-
-## 💡 Recommendations
-
-Based on the findings, BrightCart should:
-
-1. **Investigate the November 2025 turning point** by reviewing pricing, inventory, conversion and customer activity before and after the decline.
-
-2. **Strengthen customer retention** through loyalty incentives, personalized offers and repeat-purchase campaigns.
-
-3. **Optimize the Website and Mobile App** by improving product discovery, checkout experience and abandoned-cart recovery.
-
-4. **Reduce preventable returns** by improving sizing guides, product descriptions, packaging and delivery processes.
-
-5. **Optimize marketing efficiency** by measuring ROI by marketing channel and reallocating resources toward higher-performing channels.
-
-6. **Develop underperforming regions and categories** while maintaining the performance of high-value markets and products.
+Sales continued to decline despite fluctuations in marketing spend, suggesting that other factors such as conversion, pricing, inventory and customer activity should also be investigated.
 
 ---
 
-## 📌 Key Business Takeaway
+# 💡 Recommendations
 
-The analysis indicates that BrightCart's sales decline is not attributable to a single factor. The sustained decline from November 2025, declining sales across customer groups, reliance on digital channels, return-related issues and varying marketing performance point to the need for a broader performance review.
+Based on the analysis, the following actions are recommended for BrightCart Commerce:
 
-BrightCart should prioritize **understanding the root cause of the sales decline, retaining existing customers, improving digital-channel performance, reducing preventable returns and optimizing marketing efficiency.**
+### 1. Investigate the November 2025 Turning Point
+
+Compare performance before and after November 2025 across **pricing, inventory, conversion, customer activity and marketing effectiveness**.
+
+### 2. Strengthen Customer Retention
+
+Use **loyalty incentives, personalized offers and repeat-purchase campaigns** to strengthen customer retention and protect revenue from existing customers.
+
+### 3. Optimize Digital Channels
+
+Improve the **Website and Mobile App** through better product discovery, checkout experience and abandoned-cart recovery.
+
+### 4. Reduce Preventable Returns
+
+Improve **size guides, product descriptions, quality control, packaging and delivery processes** to address the major return drivers.
+
+### 5. Improve Marketing Efficiency
+
+Measure **marketing ROI by channel** and prioritize channels that demonstrate stronger commercial performance.
+
+### 6. Diversify Revenue
+
+Develop targeted strategies for **underperforming regions and product categories** while maintaining the performance of high-value markets and products.
 
 ---
 
-## 📂 Project Files
+# 📌 Key Business Takeaway
 
-- `BrightCart_Ecommerce_Sales_Analysis.xlsx` - Excel dashboard and analysis
-- `BrightCart_Ecommerce_Sales_Analysis.pdf` - Project case study
-- `README.md` - Project documentation
+BrightCart's sales decline is a **sustained performance issue rather than a single-month fluctuation**.
+
+The analysis indicates that recovery will require a multi-dimensional approach focused on:
+
+**Understanding the November 2025 turning point → retaining valuable customers → strengthening digital channels → reducing preventable returns → improving marketing efficiency.**
 
 ---
 
-## 👤 Author
+# 🧹 Data Preparation
 
-**Oluwafeyikemi Oladele**
+Before analysis, the dataset was reviewed and prepared to improve consistency and reliability.
 
-Data Analyst | Excel | Power BI | SQL
+### Key Data Preparation Steps
 
-[LinkedIn](https://www.linkedin.com/in/oluwafeyikemi-oladele/)
+- Identified and reviewed missing and blank values
+- Removed duplicate records
+- Standardized inconsistent categorical values
+- Corrected date and numerical formats
+- Validated sales, profit and discount values
+- Created a Month-Year field for trend analysis
+- Created calculated metrics for KPI analysis
+- Prepared the dataset for PivotTables and dashboard analysis
+
+**Note:** Blank category/channel values were excluded from relevant breakdown visuals, while valid sales records were retained in overall KPI calculations.
+
+---
+
+# 📂 Project Files
+
+The repository contains the following files:
+
+
+BrightCart-Ecommerce-Sales-Analysis/
+│
+├── README.md
+│
+├── images/
+│   ├── executive-dashboard.png
+│   ├── customer-operational-dashboard.png
+│   └── insights-recommendations-dashboard.png
+│
+├── BrightCart_Ecommerce_Sales_Analysis.xlsx
+│
+└── BrightCart_Ecommerce_Sales_Performance_Case_Study.pdf
