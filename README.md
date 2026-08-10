@@ -214,20 +214,31 @@ Before analysis, the dataset was reviewed and prepared to improve consistency an
 
 ---
 
-# 📂 Project Files
+## 📂 Project Files
 
-The repository contains the following files:
+| File | Description |
+|------|-------------|
+| `BrightCart_Ecommerce_Sales_Analysis.xlsx` | Excel workbook containing the data preparation, analysis, calculations, PivotTables and three-page dashboard. |
+| `BrightCart_Ecommerce_Sales_Performance_Case_Study.pdf` | Full case study covering the business problem, methodology, dashboard analysis, key insights and recommendations. |
+| `images/` | Contains screenshots of the three dashboard pages for quick preview. |
 
+---
 
-BrightCart-Ecommerce-Sales-Analysis/
-│
-├── README.md
-│
-├── images/
-│   ├── executive-dashboard.png
-│   ├── customer-operational-dashboard.png
-│   └── insights-recommendations-dashboard.png
-│
-├── BrightCart_Ecommerce_Sales_Analysis.xlsx
-│
-└── BrightCart_Ecommerce_Sales_Performance_Case_Study.pdf
+## 📄 Case Study
+
+The **BrightCart E-Commerce Sales Performance Case Study** documents the analysis from identifying the sales decline to uncovering key performance drivers and developing data-driven recommendations.
+
+### The case study covers:
+
+- Business Problem
+- Analysis Objectives
+- Data Preparation
+- Exploratory Analysis
+- Dashboard Development
+- Key Insights
+- Business Recommendations
+- Conclusion
+
+### 🔗 View the Full Case Study
+
+[**View Case Study PDF**](BrightCart_Ecommerce_Sales_Performance_Case_Study.pdf)
