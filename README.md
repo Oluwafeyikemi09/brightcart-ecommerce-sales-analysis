@@ -241,4 +241,5 @@ The **BrightCart E-Commerce Sales Performance Case Study** documents the analysi
 
 ### 🔗 View the Full Case Study
 
-[**View Case Study PDF**](BrightCart_Ecommerce_Sales_Performance_Case_Study.pdf)
+[**View Case Study PDF**]
+(https://github.com/Oluwafeyikemi09/brightcart-ecommerce-sales-analysis/blob/3cdb35499d32c3589f2be74c7432698bb495b30c/Brightcart_Ecommerce_Sales_Performance_Case_Study.pdf)
